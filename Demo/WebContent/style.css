@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+body{
+	height: 100%;
+	margin:0;
+	width: 100%;
+	padding:0;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	padding:0px;
+}
+
+#login{
+	background : blue;
+}
+
+#log{
+	background: url("Images/msd.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#logout{
+	color: brown;
+	margin-left: 100px;
+}
+
+#table, #bttn{
+	color:brown;
+	margin-left: 200px;
+}
+
+table{
+	margin-top: 20px;
+	margin-left: 30px;
+	border-collapse: collapse;
+	width:90%;
+}
+
+td,th{
+	border:1px solid black;
+	padding:5px;
+}
+
+.map1{
+	height: 500px; 
+	width: 100%;
+	top: 10px;
+	left:0%;
+}
+
+.map2{
+	height: 500px;
+	width: 70%;
+	padding:0px;
+	left: 30%;
+}
+
+#tog {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F3E5F5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+#tog .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
